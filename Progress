@@ -14,10 +14,8 @@ Topics I think I know
   7. Intent
   8. Threads and multithreading
   9. Workmanager
-  10. Adapter = Difference between Listview & Recyclerview
-  11. Launch modes
-  12. Broadcast receivers and its types
-  13. Navigation component
+  10. Launch modes
+  11. Broadcast receivers and its types
   
   
   
@@ -33,5 +31,62 @@ Topics I think I know
    8. Hashmap - comparator sortByValue
    9. HashTables
    10. Difference between hashmap and hash table. https://www.geeksforgeeks.org/differences-between-hashmap-and-hashtable-in-java/
-   11. 
+  
+   
+   
+   
+ 3. Advanced Android 
+ 
+   1. Diffutil
+   2. Room
+   3. Retrofit
+   4. Coroutines
+   
+
+Things I dont know 
+
+1. Android
+  1. Adapter = Difference between Listview & Recyclerview
+  2. Navigation component
+  3. DI with hilt and dagger2
+  4. RxJava
+  5. 
+
+
+
+
+
+
+
+2. DS algo
+
+  1. Trees
+  2. Tries
+  3. Graph
+  4. Pattern searching
+  5. 
+   
+   
+   
+3. System Design
+  1. Singleton pattern [Link] (https://www.geeksforgeeks.org/java-singleton-design-pattern-practices-examples/)
+  2. Repository pattern
+  3. Observer Pattern
+  4. MVVM
+  5. MVP
+  6. MVC
+  
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
 
