@@ -8,6 +8,8 @@ Aina Station
 4. Aina station requests blood data from Aina app which transfers this data.
 5. After getting the data it saves the data in its DB as a visit(as a session for that patient) and syncs the data for the visit to the server.
 
+App link : https://play.google.com/store/apps/details?id=janacare.com.ainascreeningapp&hl=en&gl=US
+
 
 Questions that can be asked based on this:
 1. How do you transfer the data and get it back from Aina app?
