@@ -23,3 +23,23 @@ Android
 13. Launch modes
 14. Broadcast receivers and its types
 15. Navigation component
+
+
+DS Algo
+
+1. Arrays
+2. Sorting 
+    1. Bubble,
+    2. Selection
+    3. MergeSort
+    4. QuickSort
+3. Linked list
+4. Stacks
+5. Queue
+6. Trees
+7. HashTables
+8. Map
+    1. How does HashMap work? 
+    2. Diff between various Maps such as  - LinkedHashMap, TreeMap, etc
+9. Search
+10. Heaps
