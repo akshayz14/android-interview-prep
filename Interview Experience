@@ -1,0 +1,68 @@
+
+Grab interview:
+
+1. How does the hash-map work? https://www.youtube.com/watch?v=c3RVW3KGIIE
+2. Which one would you use relativelayout or linearlayout
+3. Launch modes —https://medium.com/@iammert/android-launchmode-visualized-8843fc833dbe
+4. Activity lifecycle
+5. When is onSaveInstance will be called — when the activity is about to stop.
+6. Case where onSavinstance is not called  — When user explicitly closes the activity or wen finish() is called.
+7. Difference between commit and commitAllowStateLoss —— commit() — does not happen immediately. Will be executed on the main thread when that thread comes back.  commitAllowStateLoss() —— the state which is lost in commit using state loss : If the activity that has a frag A, if activity gets stopped for some reason the state from onSaveInstance may or may not get saved.
+8. Difference between MVC, MVP, MVVM.
+
+
+other interviews :
+1. Explain singleton design pattern
+2. What are some of the design patterns you know — MVC, MVP, MVVM
+3. If there is activity A that has opened activity B, what all methods will be invoked when you press back on Activity B starting from onBackpressed().
+4. Explain fragment lifecycle
+5. Why is serializable slower than parcelable — Serializable uses default java interface implementation which uses reflection and thus produces garbage overhead.(Reflection is the process in which one code can inspect another code at runtime). Parcelable is object specific created for that particular object. It is a custom serialization thus there is no garbage and the process is faster.
+
+
+
+ULA interview: (25-June-2020)
+Questions were based mostly on system design
+1. Design Instagram : Given large size images(>10MB) how will you show images in the app— compression(on server side or in app). how the images will be viewd by other users. Basically how does Instagram work?
+2. Design messaging system such as WhatsApp https://techtakshila.com/system-design-interview/chapter-1
+3. How does push notification work?
+    1.  https://webengage.com/blog/push-notifications/#:~:text=How%20do%20Push%20Notifications%20Work%3F,-To%20understand%20how&text=Client%20app%E2%80%93%20The%20app%20which,it%20to%20the%20client%20app. 
+    2. https://stackoverflow.com/questions/11508613/how-does-push-notification-technology-work-on-android
+4. 1 DSA problem. 
+5. Xmpp, Websockets. https://blog.teamtreehouse.com/an-introduction-to-websockets
+6. What is the biggest prob that you faced and how did you solve that problem?
+7. Explain how you implemented Geofencing.
+
+
+
+Delhivery Interview:
+
+1. Linked list problem based on reversing list
+2. Android basics
+3. RxJava
+4. Meditor livedata and Mutable livedata diff
+5. How will you handle the lag in autocomolete text i.e.  if there is name Akshay and each letter makes an api call
+6. Lifecycle of a view https://proandroiddev.com/the-life-cycle-of-a-view-in-android-6a2c4665b95e
+7. what does suspend function do in couroutines?
+8. if there are 100 items in count for recyclerview, at a time how many list items will the viewholder be holding?
+9. When uploading apk to playstore, what is the diff between app bundle and .apk?
+10. Firebase related questions
+11. Which is better - relative layout or linear layout?
+
+
+VmWare interview
+1. Difference between serializable and parcelable
+2. Double interface design principle
+3. Mediator livedata
+4. Design pattern u know and explain them
+5. what does this in setOnclickListener(this) signify?
+6. What was the reason from java to kotlin
+7. Difference between listview and recycler view
+8. SOLID Principles in-depth
+
+
+
+
+
+
+
+
