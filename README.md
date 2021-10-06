@@ -24,6 +24,7 @@ Android
 14. Broadcast receivers and its types
 15. Navigation component
 
+-------------------------------------------------------------------------------------
 
 DS Algo
 
@@ -43,3 +44,28 @@ DS Algo
     2. Diff between various Maps such as  - LinkedHashMap, TreeMap, etc
 9. Search
 10. Heaps
+
+-------------------------------------------------------------------------------------
+
+Kotlin
+1. Extension functions
+2. Higher order functions
+3. Couroutines
+4. 
+
+-------------------------------------------------------------------------------------
+
+Advanced android
+MVVM:
+1. DI/HILT
+2. MVVM app with 
+    1. Room
+    2. Retrofit
+    3. coroutines
+3. DiffUtil
+4. RxJava
+
+
+
+
+
