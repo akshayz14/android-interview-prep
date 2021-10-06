@@ -58,3 +58,4 @@ MVVM:
     3. coroutines
 3. DiffUtil
 4. RxJava
+5. Unit test with mockito or espresso
