@@ -1,0 +1,37 @@
+
+
+Topics I think I know
+
+
+1. Android
+
+  1. Android Framework
+  2. Android architecture
+  3. Activity and activity lifecycle
+  4. Fragment and fragment lifecycle
+  5. Service
+  6. Content provider
+  7. Intent
+  8. Threads and multithreading
+  9. Workmanager
+  10. Adapter = Difference between Listview & Recyclerview
+  11. Launch modes
+  12. Broadcast receivers and its types
+  13. Navigation component
+  
+  
+  
+ 2. DS algo
+ 
+   1. Arrays
+   2. Linked list
+   3. Heaps
+   4. BST
+   5. Sorting - Bubble, Selection, Quick
+   6. Stacks
+   7. Queues
+   8. Hashmap - comparator sortByValue
+   9. HashTables
+   10. Difference between hashmap and hash table. [Link](https://www.geeksforgeeks.org/differences-between-hashmap-and-hashtable-in-java/)
+   11. 
+
