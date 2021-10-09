@@ -60,6 +60,11 @@ VmWare interview
 8. SOLID Principles in-depth
 
 
+RSA interview
+1. Content provider, Content resolver
+2. Broadcast receiver
+3. How will u make a RSA application, mention design
+4. Is it ideal to use livedata with room when app is not making api calls for a long time(say a year)
 
 
 
