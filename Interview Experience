@@ -40,7 +40,7 @@ Delhivery Interview:
 2. Android basics
 3. RxJava
 4. Meditor livedata and Mutable livedata diff
-5. How will you handle the lag in autocomolete text i.e.  if there is name Akshay and each letter makes an api call
+5. How will you handle the lag in autocomplete text i.e.  if there is name Akshay and each letter makes an api call
 6. Lifecycle of a view https://proandroiddev.com/the-life-cycle-of-a-view-in-android-6a2c4665b95e
 7. what does suspend function do in couroutines?
 8. if there are 100 items in count for recyclerview, at a time how many list items will the viewholder be holding?
@@ -65,8 +65,14 @@ RSA interview
 2. Broadcast receiver
 3. How will u make a RSA application, mention design
 4. Is it ideal to use livedata with room when app is not making api calls for a long time(say a year)
+5. How does contentprovider and room work in sync? https://rash-3692.medium.com/example-of-room-database-with-content-provider-part1-23b93646e09f
+6. How is local broadcast manager better over broadcast receiver? 
+7. Do you know how to do unit testing in mockito?
+8. What are coroutines? 
+9. 
 
 
+Important link for android system design https://medium.com/@goncharov.artemv/grokking-the-mobile-system-design-interview-6a06fa94491b
 
 
 
