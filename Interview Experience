@@ -61,14 +61,30 @@ VmWare interview
 
 
 RSA interview
-1. Content provider, Content resolver
-2. Broadcast receiver
-3. How will u make a RSA application, mention design
-4. Is it ideal to use livedata with room when app is not making api calls for a long time(say a year)
-5. How does contentprovider and room work in sync? https://rash-3692.medium.com/example-of-room-database-with-content-provider-part1-23b93646e09f
-6. How is local broadcast manager better over broadcast receiver? 
-7. Do you know how to do unit testing in mockito?
-8. What are coroutines? 
+Round 1&2 : 
+    1. Content provider, Content resolver
+    2. Broadcast receiver
+    3. How will u make a RSA application, mention design
+    4. Is it ideal to use livedata with room when app is not making api calls for a long time(say a year)
+    5. How does contentprovider and room work in sync? https://rash-3692.medium.com/example-of-room-database-with-content-provider-part1-23b93646e09f
+    6. How is local broadcast manager better over broadcast receiver? 
+    7. Do you know how to do unit testing in mockito?
+    8. What are coroutines? 
+ 
+ Round 3 :
+    1. Do you know what is new in android 12?
+    2. If app is downloading something and you kill the app : how will you handle this scenerio ?
+    3. What happens when you press home button and back button in the app? https://stackoverflow.com/questions/34081835/difference-between-back-press-and-home-button-in-android
+    4. What happens when you first open the app by clicking on the app icon?
+    5. Where do you get your info for what is latest in android from?
+    6. Why do you want to change?
+    7. 
+ 
+ 
+    
+ 
+
+
 
 
 
