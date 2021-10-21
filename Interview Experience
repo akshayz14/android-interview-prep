@@ -86,7 +86,7 @@ Round 1&2 :
     ShadowFax Interview :
     
     1. Tell me about the projects you worked on.
-    2. What is a Service : types of service ?
+    2. What is a Service : types of service ? https://www.vogella.com/tutorials/AndroidServices/article.html
     3. Scenerio : how will communication between service and activity happen, when service is about to stop?
     4. How to send data from fragA to fragB?
     5. Scenerio : Activity(framelayout) -> Opens fragA -> opens fragB -> press back twice -> sometimes app shows blank screen :
