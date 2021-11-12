@@ -7,7 +7,10 @@ Grab interview:
 4. Activity lifecycle
 5. When is onSaveInstance will be called — when the activity is about to stop.
 6. Case where onSavinstance is not called  — When user explicitly closes the activity or wen finish() is called.
-7. Difference between commit and commitAllowStateLoss —— commit() — does not happen immediately. Will be executed on the main thread when that thread comes back.  commitAllowStateLoss() —— the state which is lost in commit using state loss : If the activity that has a frag A, if activity gets stopped for some reason the state from onSaveInstance may or may not get saved.
+7. Difference between commit and commitAllowStateLoss —— commit() — does not happen immediately.
+    Will be executed on the main thread when that thread comes back. 
+    commitAllowStateLoss() —— the state which is lost in commit using state loss :
+    If the activity that has a frag A, if activity gets stopped for some reason the state from onSaveInstance may or may not get saved.
 8. Difference between MVC, MVP, MVVM.
 
 
@@ -16,16 +19,19 @@ other interviews :
 2. What are some of the design patterns you know — MVC, MVP, MVVM
 3. If there is activity A that has opened activity B, what all methods will be invoked when you press back on Activity B starting from onBackpressed().
 4. Explain fragment lifecycle
-5. Why is serializable slower than parcelable — Serializable uses default java interface implementation which uses reflection and thus produces garbage overhead.(Reflection is the process in which one code can inspect another code at runtime). Parcelable is object specific created for that particular object. It is a custom serialization thus there is no garbage and the process is faster.
+5. Why is serializable slower than parcelable — Serializable uses default java interface implementation which uses reflection and thus produces garbage overhead.
+    (Reflection is the process in which one code can inspect another code at runtime). Parcelable is object specific created for that particular object.
+    It is a custom serialization thus there is no garbage and the process is faster.
 
 
 
 ULA interview: (25-June-2020)
 Questions were based mostly on system design
-1. Design Instagram : Given large size images(>10MB) how will you show images in the app— compression(on server side or in app). how the images will be viewd by other users. Basically how does Instagram work?
+1. Design Instagram : Given large size images(>10MB) how will you show images in the app— compression(on server side or in app). 
+    How the images will be viewd by other users. Basically how does Instagram work?
 2. Design messaging system such as WhatsApp https://techtakshila.com/system-design-interview/chapter-1
 3. How does push notification work?
-    1.  https://webengage.com/blog/push-notifications/#:~:text=How%20do%20Push%20Notifications%20Work%3F,-To%20understand%20how&text=Client%20app%E2%80%93%20The%20app%20which,it%20to%20the%20client%20app. 
+    1.https://webengage.com/blog/push-notifications/#:~:text=How%20do%20Push%20Notifications%20Work%3F,-To%20understand%20how&text=Client%20app%E2%80%93%20The%20app%20which,it%20to%20the%20client%20app. 
     2. https://stackoverflow.com/questions/11508613/how-does-push-notification-technology-work-on-android
 4. 1 DSA problem. 
 5. Xmpp, Websockets. https://blog.teamtreehouse.com/an-introduction-to-websockets
@@ -74,7 +80,8 @@ Round 1&2 :
  Round 3 :
     1. Do you know what is new in android 12?
     2. If app is downloading something and you kill the app : how will you handle this scenerio ?
-    3. What happens when you press home button and back button in the app? https://stackoverflow.com/questions/34081835/difference-between-back-press-and-home-button-in-android
+    3. What happens when you press home button and back button in the app? 
+        https://stackoverflow.com/questions/34081835/difference-between-back-press-and-home-button-in-android
     4. What happens when you first open the app by clicking on the app icon?
     5. Where do you get your info for what is latest in android from?
     6. Why do you want to change?
@@ -93,7 +100,8 @@ Round 1&2 :
                                             Why does this happen and how will u fix this?
     6. Difference between : Compile, minimum and target sdk version
     7. Coroutine : Scenerio - showProgressBar() -> Do an API call -> on finish dismissProgressBar() : how will you do this?
-    8. What are some of the disadvantages of using singleton pattern? https://stackoverflow.com/questions/137975/what-are-drawbacks-or-disadvantages-of-singleton-pattern
+    8. What are some of the disadvantages of using singleton pattern? 
+        https://stackoverflow.com/questions/137975/what-are-drawbacks-or-disadvantages-of-singleton-pattern
     9. Do you have any projects on github?
     10. Difference between replace and add in fragment.
     11. What does addtoBackStack do?
@@ -109,14 +117,25 @@ Chingari app interview :
 
 
 
-
-
 Dot Interview:
 1. What are couroutines?
 2. What is any class in kotlin?
 3. What is Elvis operator?
 4. How does async operation happen in coroutines?
 5. 
+
+
+BigBasket interview :
+1. Difference between  MVVM and MVP - which one will you use and why?
+2. How does push notifications work?
+3. Designing a chat app.
+4. In room Db how do you execute a join operation?
+5. How do you provide parameters to constructors in HILT?
+6. Write algo for shortest path between source[i][j] & destination[i][j]. DFS & BFS
+7. What practices you use for releasing  the apk on playstore ?
+8. App security
+9. 
+
 
 
 
