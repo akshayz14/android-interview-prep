@@ -134,7 +134,11 @@ BigBasket interview :
 6. Write algo for shortest path between source[i][j] & destination[i][j]. DFS & BFS
 7. What practices you use for releasing  the apk on playstore ?
 8. App security
-9. 
+9. Difference between livedata and immutable live data
+10. Difference between data class and class in kotlin
+11. You have 3 apis. One is input to another. How will you execute this in coroutines?
+12. Advantages of kotlin over java
+13. 
 
 
 
