@@ -138,7 +138,8 @@ BigBasket interview :
 10. Difference between data class and class in kotlin
 11. You have 3 apis. One is input to another. How will you execute this in coroutines?
 12. Advantages of kotlin over java
-13. 
+13. null safety in kotlin
+14. What are primary and secondary constructor in kotlin?
 
 
 
