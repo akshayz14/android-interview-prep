@@ -141,7 +141,19 @@ BigBasket interview :
 13. null safety in kotlin
 14. What are primary and secondary constructor in kotlin?
 
-
+Few Other interview Questions on kotlin :
+1. What is "is" and "as" in kotlin
+2. How to initialise a viewmodel? 
+3. What is viewholder and what does it do?
+4. Write syntax for extension functions.
+5. What is sealed class?
+6. Null safety in kotlin.
+7. Scoping functions - let, run, apply, etc
+8. Higher order functions
+9. What is late init and lazy init? Difference between them. :-
+     Lateinit can only be used with a var property whereas lazy will always be used with val property.
+     A lateinit property can be reinitialised again and again as per the use whereas the lazy property can only be initialised once.
+10. 
 
 
 Important link for android system design https://medium.com/@goncharov.artemv/grokking-the-mobile-system-design-interview-6a06fa94491b
