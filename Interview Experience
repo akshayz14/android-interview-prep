@@ -18,7 +18,7 @@ other interviews :
 1. Explain singleton design pattern
 2. What are some of the design patterns you know — MVC, MVP, MVVM
 3. If there is activity A that has opened activity B, what all methods will be invoked when you press back on Activity B starting from onBackpressed().
-4. Explain fragment lifecycle
+4. Explain fragment lifecycle [https://vinodpattanshetti49.medium.com/fragment-lifecycle-while-doing-add-and-replace-6a3f084364af#:~:text=In%20short%20when%20you%20press,and%20popped%20off%20the%20stack.&text=When%20you%20replace%20one%20fragment,transaction%20with%20addToBackStack(null).]
 5. Why is serializable slower than parcelable — Serializable uses default java interface implementation which uses reflection and thus produces garbage overhead.
     (Reflection is the process in which one code can inspect another code at runtime). Parcelable is object specific created for that particular object.
     It is a custom serialization thus there is no garbage and the process is faster.
